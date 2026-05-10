@@ -6,7 +6,7 @@ package com.bank;
 public abstract class Account {
   protected long accountNumber;
   protected double balance;
-
+  // Day la dong code de test cache cho bai 6
   public Account(long accountNumber, double balance) {
     this.accountNumber = accountNumber;
     this.balance = balance;
